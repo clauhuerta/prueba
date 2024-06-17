@@ -1,4 +1,4 @@
-package es.ufv.dis.final2022.back;
+package es.ufv.dis.final2024.back;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
