@@ -1,4 +1,4 @@
-package es.ufv.dis.final2022.front;
+package es.ufv.dis.final2024.front;
 
 import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.html.Label;
