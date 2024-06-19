@@ -54,14 +54,14 @@ public class DatosRepository {
         return verTodo().stream().filter(data -> data.get_id().equals(id)).findFirst();
     }
 
-    // Funcion Añadir del ChildData
+    // Funcion Añadir de los datos si el ID no coincide añado id con las caracteristicas a las lista
     public void Anadir(Datos newData) {
         List<Datos> dataList = verTodo();
         dataList.add(newData);
         saveDataList(dataList);
     }
 
-    // Funcion Actualizar del ChildData
+    // Funcion Actualizar de los datos si el ID coincide actualizo
     public void Actualizar(String id, Datos updatedData) {
         List<Datos> dataList = verTodo();
         dataList.stream().filter(data -> data.get_id().equals(id)).findFirst().ifPresent(data -> {
