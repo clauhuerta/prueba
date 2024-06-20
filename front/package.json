@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js --open"
+  },
+
   "dependencies": {
     "@babel/core": "^7.17.10",
     "@polymer/iron-a11y-announcer": "3.0.2",
