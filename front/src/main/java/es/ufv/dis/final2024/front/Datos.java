@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+//@AllArgsConstructor
+
 @Getter @Setter
 public class Datos {
 
@@ -35,6 +38,10 @@ public class Datos {
         this.upperCIB = upperCIB;
         this._id = _id;
         this.estCode = estCode;
+    }
+
+    public Datos() {
+
     }
 
     // Getters y Setters
