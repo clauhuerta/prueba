@@ -1,13 +1,7 @@
 package es.ufv.dis.final2024.front;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Getter;
-import lombok.Setter;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-//@AllArgsConstructor
-
-@Getter @Setter
 public class Datos {
 
     //Atributos para leer el Json, y JsonProperty para que sepa como se llama en el archivo

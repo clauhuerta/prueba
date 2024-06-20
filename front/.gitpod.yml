@@ -3,7 +3,7 @@ tasks:
 
     command: mvn
 ports:
-  - port: 8080
+  - port: 8086
     onOpen: open-preview
 github:
   prebuilds:
