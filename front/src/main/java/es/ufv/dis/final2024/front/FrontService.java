@@ -39,7 +39,7 @@ public class FrontService {
     }
 
     //Ver MsCode
-    public List<DatosMsCode> findAll1() {
+    public List<DatosMsCode> findAllmsCode() {
         try {
             DatosMsCode[] mscodeArray = restTemplate.getForObject(FRONTEND_URL, DatosMsCode[].class);
             return mscodeArray != null ? Arrays.asList(mscodeArray) : List.of();
@@ -78,7 +78,7 @@ public class FrontService {
 
     //Para ver MsCode pero da error
     public Map<String, List<DatosMsCode>> getMsCodeGroupedData() {
-        List<DatosMsCode> msCodeData = this.findAll1(); // Suponiendo que esta función lee los datos de MsCode del JSON
+        List<DatosMsCode> msCodeData = this.findAllmsCode(); // Suponiendo que esta función lee los datos de MsCode del JSON
         return groupMsCodeDataByMscode(msCodeData);
     }
 
